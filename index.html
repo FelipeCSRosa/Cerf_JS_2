@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles/main.css">
+  <title>My Fav Films</title>
+</head>
+<body>
+  <div class="container">
+    <div class="navigation">
+      <div class="nav-left">
+        <a href="./index.html"><img src="./assets/images/logo.svg" alt="My Fav Films logo" width="87" height="64"></a>
+        <ul class="navigation-items">
+          <li id="comedia"><a href="./comedy.html">Comedia</a></li>
+          <li id="terror">Terror</li>
+          <li id="acao">Ação</li>
+          <li id="drama">Drama</li>
+        </ul>
+      </div>
+      <div class="nav-right">
+        <div class="button">
+          <a href="https://github.com/FelipeCSRosa" target="_blank">
+            + Me Adicione
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="main-content">
+      <div class="main-info">
+        <h1 class="title">Procure por seu filme favorito</h1>
+        <h3 class="subtitle">Digite o nome do seu filme e veja oque temos sobre ele</h3>
+      </div>
+      <div class="main-search">
+        <div class="search-bar">
+          <div class="search-select">
+            <select name="search-select" id="search-select">
+              <option value="movie">Filmes</option>
+              <option value="series">Séries</option>
+            </select>
+          </div>
+          <input type="text" placeholder="Busque aqui por um filme" class="search-input">
+          <div class="search-icon">
+            <img src="./assets/icons/search.svg" alt="Busque por filmes">
+          </div>
+        </div>
+      </div>
+      <div class="results-area">
+
+      </div>
+    </div>
+  </div>
+
+  <script src="./src/main.js"></script>
+</body>
+</html>
