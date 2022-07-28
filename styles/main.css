@@ -7,7 +7,9 @@
 }
 
 body {
-  background-color: #161819;
+  background-color: #252525;
+  background-repeat: no-repeat;
+  background-size: cover;
   font-family: 'Poppins', sans-serif;
 }
 
@@ -30,16 +32,20 @@ body {
 }
 
 .navigation-items li {
-  color: #ffffff;
+  color: #FF0000;
   margin: 0 10px;
   list-style: none;
   cursor: pointer;
   font-size: 20px;
 }
 
+li a {
+  color: #FF0000;
+}
+
 .button {
   padding: 10px;
-  border: 1px solid #fff;
+  border: 1px solid #FF0000;
   border-radius: 10px;
   cursor: pointer;
   transition: 0.5s;
@@ -47,17 +53,18 @@ body {
 }
 
 .button:hover{
-  background-color: #fff;
+  background-color: #AF0404;
+  border: 1px solid #AF0404;
 }
 
 .button:hover a{
   transition: 0.5s;
-  color: #161819;
+  color: #fff;
 }
 
 .button a{
   text-decoration: none;
-  color: #fff;
+  color: #FF0000;
 }
 
 .main-content {
@@ -80,7 +87,7 @@ body {
   text-align: center;
   font-weight: 500;
   font-size: 20px;
-  opacity: 0.5;
+  opacity: 0.7;
 }
 
 .main-search {
@@ -93,10 +100,11 @@ body {
   justify-content: space-between;
   background: #252728;
   border-radius: 10px;
+  border: 2px solid #AF0404;
 }
 
 .search-select select{
-  background: linear-gradient(to bottom right, #F473A3, #FE5661);
+  background: linear-gradient(to bottom right, #AF0404, #FF0000);
   border: none;
   padding: 10px;
   margin: 10px 0px 10px 10px;
@@ -131,9 +139,9 @@ input:focus {
 
 .results-item {
   margin: 10px;
-  padding: 5px;
-  background-color: #080808;
-  border-radius: 15px;
+  padding: 8px;
+  border-radius: 5px;
+  border: 3px solid #AF0404;
 }
 
 .results-area img {
@@ -155,12 +163,12 @@ input:focus {
 }
 
 ::-webkit-scrollbar-track {
-  border: 1px solid #ccc;
+  border: 1px solid #FF0000;
   border-radius: 15px;
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #ccc;
+  background: #AF0404;
   border-radius: 10px;
 }
 
